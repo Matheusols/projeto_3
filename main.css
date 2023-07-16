@@ -1,0 +1,71 @@
+body{
+    font-family: Roboto, sans-serif;
+}
+.navbar{
+    background-color: #717ffd;
+}
+#cabecalho .nav .nav-link,
+.navbar-brand,
+.navbar-brand:hover,
+.nav-modelo .nav-link.active:hover{
+    color: #fff;
+}
+#cabecalho .nav .nav-link.active{
+    background-color: #fff;
+    color: #717ffd;
+}
+.navbar-toggler{
+    background-color: #eae6ff;
+}
+.section-title,
+.navbar-brand,
+.navbar{
+    font-family: Tektur, cursive;
+}
+.text-colored,
+.section-title span{
+    color:#717ffd;
+}
+#sobre-a-empresa,
+#modelos{
+    background-color:  #eae6ff;
+}
+.nav-modelo .nav-link.active,
+#contato button{
+    background-color: #717ffd;
+    color: #fff;
+}
+.nav-modelo .nav-link:hover{
+    color: #717ffd;
+}
+.social-links li{
+    list-style: none;
+    display: inline;
+}
+.social-links li a{
+    text-decoration: none;
+}
+@media (max-width: 767px){
+    .carousel-item img{
+        height: 280px;
+    }
+}
+@media (min-width: 768px) and (max-width: 1281px) {
+    .carousel-item img{
+        height: 600px;
+    }
+}
+.carousel-item{
+    background-color: black;
+}
+.carousel-item img{
+    opacity: 0.3;
+}
+footer{
+    width: 100%;
+    background-color: #717ffd;
+    color: #fff;
+}
+.error{
+    color: #ac2925;
+}
